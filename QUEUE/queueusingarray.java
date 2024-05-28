@@ -86,12 +86,12 @@ public class queueusingarray {
     }
 
     public static void main(String []str){
-        queueusingarray key=new queueusingarray(4);
+        queueusingarray key=new queueusingarray(3);
         key.enqueue(100);
         key.enqueue(100);
+        key.enqueue(400);
         key.dequeue();
-        key.dequeue();
-        key.enqueue(123);
+        key.enqueue(800);
         key.display();
 
 
